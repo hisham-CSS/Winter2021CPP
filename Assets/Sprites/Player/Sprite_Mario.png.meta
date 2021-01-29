@@ -28,7 +28,7 @@ TextureImporter:
     second: Sprite_Mario_7
   - first:
       213: -5672653749854861051
-    second: Sprite_Mario_8
+    second: MarioJump
   - first:
       213: 3387244394707617170
     second: Sprite_Mario_9
@@ -442,7 +442,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Mario_8
+      name: MarioJump
       rect:
         serializedVersion: 2
         x: 144
