@@ -485,13 +485,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4184424806359009749, guid: 5a83ed6f895daee408f299a4b2e57860, type: 3}
-      propertyPath: groundCheckRadius
-      value: 0.01
+    - target: {fileID: 8266440186896765230, guid: 5a83ed6f895daee408f299a4b2e57860, type: 3}
+      propertyPath: projectileSpeed
+      value: 10
       objectReference: {fileID: 0}
-    - target: {fileID: 7465504704919849899, guid: 5a83ed6f895daee408f299a4b2e57860, type: 3}
-      propertyPath: m_Constraints
-      value: 4
-      objectReference: {fileID: 0}
+    - target: {fileID: 8266440186896765230, guid: 5a83ed6f895daee408f299a4b2e57860, type: 3}
+      propertyPath: projectilePrefab
+      value: 
+      objectReference: {fileID: 525407413267892621, guid: f85bf670d183eeb499e4ddf2bc74b6b1, type: 3}
+    - target: {fileID: 8266440186896765230, guid: 5a83ed6f895daee408f299a4b2e57860, type: 3}
+      propertyPath: projectilePrefab1
+      value: 
+      objectReference: {fileID: 7361931767336588384, guid: f85bf670d183eeb499e4ddf2bc74b6b1, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a83ed6f895daee408f299a4b2e57860, type: 3}

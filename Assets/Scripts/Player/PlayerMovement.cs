@@ -4,10 +4,12 @@ using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(Animator))]
+[RequireComponent(typeof(SpriteRenderer))]
 public class PlayerMovement : MonoBehaviour
 {
     Rigidbody2D rb;
     Animator anim;
+    SpriteRenderer marioSprite;
 
     public float speed;
     public int jumpForce;
@@ -19,8 +21,10 @@ public class PlayerMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        marioSprite = GetComponent<SpriteRenderer>();
 
         if (speed <= 0)
         {
@@ -59,5 +63,8 @@ public class PlayerMovement : MonoBehaviour
         rb.velocity = new Vector2(horizontalInput * speed, rb.velocity.y);
         anim.SetFloat("speed", Mathf.Abs(horizontalInput));
         anim.SetBool("isGrounded", isGrounded);
+
+        if (marioSprite.flipX && horizontalInput > 0 || !marioSprite.flipX && horizontalInput < 0)
+            marioSprite.flipX = !marioSprite.flipX;
     }
 }
