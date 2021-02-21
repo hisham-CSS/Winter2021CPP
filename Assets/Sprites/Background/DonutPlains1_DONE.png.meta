@@ -10,7 +10,7 @@ TextureImporter:
     second: DonutPlains1_DONE_1
   - first:
       213: -6223913005026926526
-    second: DonutPlains1_DONE_2
+    second: Coin
   - first:
       213: -8251548219702976207
     second: DonutPlains1_DONE_3
@@ -34,13 +34,13 @@ TextureImporter:
     second: DonutPlains1_DONE_9
   - first:
       213: -4155499301291857916
-    second: DonutPlains1_DONE_10
+    second: PowerUp
   - first:
       213: -6150482773385901676
-    second: DonutPlains1_DONE_11
+    second: Key
   - first:
       213: -6400644745172546573
-    second: DonutPlains1_DONE_12
+    second: Collectible
   - first:
       213: -1617794307008389237
     second: DonutPlains1_DONE_13
@@ -178,13 +178,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DonutPlains1_DONE_2
+      name: Coin
       rect:
         serializedVersion: 2
-        x: 63
-        y: 138
-        width: 10
-        height: 18
+        x: 65
+        y: 139
+        width: 7
+        height: 15
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -346,13 +346,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DonutPlains1_DONE_10
+      name: PowerUp
       rect:
         serializedVersion: 2
-        x: 238
-        y: 114
-        width: 23
-        height: 22
+        x: 242
+        y: 117
+        width: 14
+        height: 14
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -367,13 +367,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DonutPlains1_DONE_11
+      name: Key
       rect:
         serializedVersion: 2
-        x: 281
-        y: 99
-        width: 22
-        height: 22
+        x: 284
+        y: 103
+        width: 16
+        height: 16
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -388,13 +388,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DonutPlains1_DONE_12
+      name: Collectible
       rect:
         serializedVersion: 2
-        x: 238
-        y: 81
-        width: 23
-        height: 23
+        x: 242
+        y: 85
+        width: 14
+        height: 14
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

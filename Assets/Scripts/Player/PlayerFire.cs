@@ -36,13 +36,11 @@ public class PlayerFire : MonoBehaviour
     {
         if (marioSprite.flipX)
         {
-            Debug.Log("Fire Left Side");
             Projectile projectileInstance = Instantiate(projectilePrefab, spawnPointLeft.position, spawnPointLeft.rotation);
-            projectileInstance.speed = projectileSpeed;
+            projectileInstance.speed = -projectileSpeed;
         }
         else
         {
-            Debug.Log("Fire Right Side");
             Projectile projectileInstance = Instantiate(projectilePrefab, spawnPointRight.position, spawnPointRight.rotation);
             projectileInstance.speed = projectileSpeed;
         }

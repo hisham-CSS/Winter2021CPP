@@ -77,7 +77,7 @@ GameObject:
   - component: {fileID: 8266440186896765230}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -250,8 +250,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnPointLeft: {fileID: 2759508730064396264}
   spawnPointRight: {fileID: 417392421}
-  projectileSpeed: 0
-  projectilePrefab: {fileID: 0}
+  projectileSpeed: 10
+  projectilePrefab: {fileID: 525407413267892621, guid: f85bf670d183eeb499e4ddf2bc74b6b1, type: 3}
 --- !u!1 &7956207658839395319
 GameObject:
   m_ObjectHideFlags: 0

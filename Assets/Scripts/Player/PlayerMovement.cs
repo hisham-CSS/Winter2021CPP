@@ -18,6 +18,41 @@ public class PlayerMovement : MonoBehaviour
     public Transform groundCheck;
     public float groundCheckRadius;
 
+    int _score = 0;
+    public int score
+    {
+        get { return _score; }
+        set
+        {
+            _score = value;
+            Debug.Log("Current Score Is " + _score);
+        }
+    }
+
+    public int maxLives = 3;
+    int _lives = 3;
+
+    public int lives
+    {
+        get { return _lives; }
+        set
+        {
+            _lives = value;
+
+            if (_lives > maxLives)
+            {
+                _lives = maxLives;
+            }
+            else if (_lives < 0)
+            {
+                //run game over code here
+            }
+
+
+            Debug.Log("Current Lives Are " + _lives);
+        }
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -67,4 +102,35 @@ public class PlayerMovement : MonoBehaviour
         if (marioSprite.flipX && horizontalInput > 0 || !marioSprite.flipX && horizontalInput < 0)
             marioSprite.flipX = !marioSprite.flipX;
     }
+
+    public void StartJumpForceChange()
+    {
+        StartCoroutine(JumpForceChange());
+    }
+
+    IEnumerator JumpForceChange()
+    {
+        jumpForce = 500;
+        yield return new WaitForSeconds(10.0f);
+        jumpForce = 300;
+    }
+
+    void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Pickups")
+        {
+            Pickups curPickup = collision.GetComponent<Pickups>();
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                switch (curPickup.currentCollectible)
+                {
+                    case Pickups.CollectibleType.KEY:
+                        //add to inventory or other mechanic
+                        Destroy(collision.gameObject);
+                        break;
+                }
+            }   
+        }
+    }
+
 }
