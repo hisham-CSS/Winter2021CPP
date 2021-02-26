@@ -8,6 +8,48 @@ TextureImporter:
   - first:
       213: -6284743126234988054
     second: EnemyProjectile
+  - first:
+      213: 1806792481249232679
+    second: EnemyWalker_Walk1
+  - first:
+      213: 1202759280017107216
+    second: EnemyWalker_Walk2
+  - first:
+      213: 9166066985319320210
+    second: EnemyWalker_Death
+  - first:
+      213: -8418568836476118505
+    second: EnemyWalker_Squish
+  - first:
+      213: 7709183012704339017
+    second: Turret_Throw1
+  - first:
+      213: -6894163664635066635
+    second: Turret_Throw2
+  - first:
+      213: -2676618423946635545
+    second: Turret_Throw3
+  - first:
+      213: -1403785383596086482
+    second: Turret_Throw4
+  - first:
+      213: 434443584825584821
+    second: Turret_Throw5
+  - first:
+      213: -816038169373137870
+    second: Turret_Throw6
+  - first:
+      213: -6113932360087363998
+    second: Turret_Throw7
+  - first:
+      213: 7360892222697696379
+    second: Turret_Throw8
+  - first:
+      213: 3480729651566528003
+    second: Turret_Throw9
+  - first:
+      213: -8037367527745578420
+    second: Turret_Idle
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -138,7 +180,7 @@ TextureImporter:
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -146,6 +188,300 @@ TextureImporter:
       bones: []
       spriteID: ae18f28bc6b18c8a0800000000000000
       internalID: -6284743126234988054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyWalker_Walk1
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 123
+        width: 15
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72705bb5034031910800000000000000
+      internalID: 1806792481249232679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyWalker_Walk2
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 123
+        width: 16
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01969b3513f01b010800000000000000
+      internalID: 1202759280017107216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyWalker_Death
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 137
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29ac467fb59643f70800000000000000
+      internalID: 9166066985319320210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyWalker_Squish
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 120
+        width: 16
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71adaa82f3c3b2b80800000000000000
+      internalID: -8418568836476118505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret_Throw1
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 169
+        width: 23
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 944c7b4ea158cfa60800000000000000
+      internalID: 7709183012704339017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret_Throw2
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 169
+        width: 24
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f685028ca20350a0800000000000000
+      internalID: -6894163664635066635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret_Throw3
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 168
+        width: 24
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e6156989bdbadad0800000000000000
+      internalID: -2676618423946635545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret_Throw4
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 168
+        width: 24
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2baed591a0c48ce0800000000000000
+      internalID: -1403785383596086482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret_Throw5
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 193
+        width: 19
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bce97c7324770600800000000000000
+      internalID: 434443584825584821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret_Throw6
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 193
+        width: 20
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 234aa57cb99dca4f0800000000000000
+      internalID: -816038169373137870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret_Throw7
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 193
+        width: 20
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26e1a3859e2f62ba0800000000000000
+      internalID: -6113932360087363998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret_Throw8
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 193
+        width: 20
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7ce4d31a74272660800000000000000
+      internalID: 7360892222697696379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret_Throw9
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 163
+        width: 24
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 306cac82d290e4030800000000000000
+      internalID: 3480729651566528003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Turret_Idle
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 222
+        width: 24
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4a177b31d8857090800000000000000
+      internalID: -8037367527745578420
       vertices: []
       indices: 
       edges: []
