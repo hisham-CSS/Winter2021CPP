@@ -27,12 +27,12 @@ public class Pickups : MonoBehaviour
                     break;
                 case CollectibleType.LIVES:
                     Debug.Log("Lives");
-                    collision.GetComponent<PlayerMovement>().lives++;
+                    GameManager.instance.lives++;
                     Destroy(gameObject);
                     break;
                 case CollectibleType.COLLECTIBLE:
                     Debug.Log("Collectible");
-                    collision.GetComponent<PlayerMovement>().score++;
+                    GameManager.instance.score++;
                     Destroy(gameObject);
                     break;
             }
